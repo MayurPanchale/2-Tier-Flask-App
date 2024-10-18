@@ -15,13 +15,13 @@ In this project, we will do containerization of a two-tier application using Doc
 
 ### Step 1: Launch Instance
 1. **Create an AWS EC2 Instance.**
-2. Connect to the instance. 
+2. **Connect to the instance.** 
 
 After successfully connecting to the EC2 instance, it will look like this
 ![aws-instance](https://github.com/MayurPanchale/2-Tier-Flask-App/blob/main/Images/instance.png)
 
 ### Step 2: Install Docker
-1. **Update the Ubuntu system:**
+ **Update the Ubuntu system:**
    ```bash
    sudo apt update
    ```
@@ -51,7 +51,7 @@ After successfully connecting to the EC2 instance, it will look like this
 1. **Create a Dockerfile:**
 `vim Dockerfile`
 
-(Write your Dockerfile content)
+   (Write your Dockerfile content)
 
 2. **Build the Docker image: :-**
 `docker build . -t flaskapp(image_name)`
